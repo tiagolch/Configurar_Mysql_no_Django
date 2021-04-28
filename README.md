@@ -29,9 +29,9 @@
 	python manage.py inspectdb > app\models.py  #ira inputar a estrutura varrida no banco para o models.
   ```
 
-- Rodar o Migrate:
+- Rodar o Migrate para criar as tabelas necessarias do django:
 	
   ```
-	python manage.py migrate #Para criar as tabelas necessarias do django
+	python manage.py migrate 
   ```
 
